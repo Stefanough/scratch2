@@ -4,10 +4,12 @@ import ReactDOM from 'react-dom';
 class App extends Component {
 
   render() {
-    render(
+    return (
       <div>
         hi there whatever.
       </div>
     )
   }
 }
+
+ReactDOM.render(<App />, document.getElementById('app'));

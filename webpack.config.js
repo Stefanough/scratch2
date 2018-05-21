@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './client/main.js',
+  entry: './client/index.js',
   output: {
-    // path: '/home/stefan/codesmith/scratch2/build/',
-    path: path.resolve(__dirname, 'build'),
+    path: '/home/stefan/codesmith/scratch2/build/',
+    // path: path.resolve('./build'),
     filename: 'webpack-bundle.js',
   },
   devServer: {
